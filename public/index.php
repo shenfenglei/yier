@@ -8,7 +8,8 @@
  */
 
 define('LARAVEL_START', microtime(true));
-
+header("charset=UTF-8");
+date_default_timezone_set("Asia/Shanghai");
 /*
 |--------------------------------------------------------------------------
 | Register The Auto Loader
@@ -20,7 +21,6 @@ define('LARAVEL_START', microtime(true));
 | loading any of our classes later on. It feels great to relax.
 |
 */
-
 require __DIR__.'/../vendor/autoload.php';
 
 /*
