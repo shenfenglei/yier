@@ -8,7 +8,8 @@
  */
 
 define('LARAVEL_START', microtime(true));
-
+header("charset=UTF-8");
+date_default_timezone_set("Asia/Shanghai");
 /*
 |--------------------------------------------------------------------------
 | Register The Auto Loader
